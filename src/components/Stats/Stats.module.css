@@ -1,0 +1,27 @@
+.stats {
+  font-size: 28px;
+  display: flex;
+}
+
+li:not(:first-child) {
+  border-left: var(--border);
+}
+
+.label {
+  color: var(--primary-color);
+}
+
+.quantity {
+  color: var(--secondary-color);
+  font-weight: 500;
+}
+
+li {
+  padding: 40px 0px;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 33.34%;
+  align-items: center;
+  border-top: var(--border);
+}

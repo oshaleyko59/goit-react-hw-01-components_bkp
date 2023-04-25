@@ -1,0 +1,7 @@
+.profile {
+  border-radius: var(--primary-border-radius);
+  overflow: hidden;
+  width: 480px;
+  box-shadow: var(--elevated-box-shadow);
+}
+
