@@ -1,9 +1,9 @@
 .stats {
-  font-size: 28px;
+  font-size: 24px;
   display: flex;
 }
 
-li:not(:first-child) {
+.stats li:not(:first-child) {
   border-left: var(--border);
 }
 
@@ -16,11 +16,12 @@ li:not(:first-child) {
   font-weight: 500;
 }
 
-li {
+.stats li {
   padding: 40px 0px;
   background-color: aliceblue;
   display: flex;
   flex-direction: column;
+  gap: 14px;
   flex-basis: 33.34%;
   align-items: center;
   border-top: var(--border);

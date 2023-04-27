@@ -1,0 +1,32 @@
+.transactionHistory {
+  border-radius: var(--primary-border-radius);
+  border-collapse: collapse;
+  box-shadow: var(--evevated-box-shadow);
+  overflow: hidden;
+  font-size: 16px;
+}
+
+td {
+  padding: 20px 60px;
+  border: 1px solid #3f51b541;
+}
+
+th {
+  padding: 20px 60px;
+  border: 1px solid aliceblue;
+}
+thead tr{
+  color:aliceblue;
+  background-color: rgb(11, 134, 242);
+
+}
+
+tr {
+  color: var(--primary-color);
+  background-color: aliceblue;
+}
+
+tr:nth-child(2n) {
+  background-color:  #3f51b511;
+}
+

@@ -1,0 +1,28 @@
+.name {
+  width: 120px;
+  margin: 0px;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--secondary-color);
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  padding: 8px 16px;
+  gap: 16px;
+  align-items: center;
+  background-color: aliceblue;
+  box-shadow: var(--elevated-box-shadow);
+}
+
+.status {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+
+.avatar {
+  border-radius: 5px;
+  background-color: rgba(201, 199, 199, 0.992);
+}
